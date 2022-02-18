@@ -276,7 +276,7 @@ func GetError(err error) error {
 			Line:             string(pqerr.Line),
 			Routine:          pqerr.Routine,
 		}
-		return GetError(er)
+		return GetError(&er)
 	default:
 		return pqerr
 	}
