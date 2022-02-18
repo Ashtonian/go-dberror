@@ -1,7 +1,7 @@
 package dberror_test
 
 import (
-	dberror "github.com/Shyp/go-dberror"
+	dberror "github.com/ashtonian/go-dberror"
 	"github.com/lib/pq"
 )
 
