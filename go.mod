@@ -1,4 +1,4 @@
-module github.com/Shyp/go-dberror
+module github.com/ashtonian/go-dberror
 
 go 1.17
 
